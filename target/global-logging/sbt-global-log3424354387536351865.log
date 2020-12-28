@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(inspect scalaSource, Some(2bf03121-c9d6-4d01-b3be-c5796b660276), Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mSetting: java.io.File = /Users/izaakchater/IdeaProjects/ScalaTestsPlayground/src/main/scala[0m
+[0m[[0m[0minfo[0m] [0m[0mDescription:[0m
+[0m[[0m[0minfo[0m] [0m[0m	Default Scala source directory.[0m
+[0m[[0m[0minfo[0m] [0m[0mProvided by:[0m
+[0m[[0m[0minfo[0m] [0m[0m	ProjectRef(uri("file:/Users/izaakchater/IdeaProjects/ScalaTestsPlayground/"), "scalatestsplayground") / Compile / scalaSource[0m
+[0m[[0m[0minfo[0m] [0m[0mDefined at:[0m
+[0m[[0m[0minfo[0m] [0m[0m	(sbt.Defaults.sourceConfigPaths) Defaults.scala:555[0m
+[0m[[0m[0minfo[0m] [0m[0mDependencies:[0m
+[0m[[0m[0minfo[0m] [0m[0m	Compile / sourceDirectory[0m
+[0m[[0m[0minfo[0m] [0m[0mReverse dependencies:[0m
+[0m[[0m[0minfo[0m] [0m[0m	Compile / unmanagedSourceDirectories[0m
+[0m[[0m[0minfo[0m] [0m[0mDelegates:[0m
+[0m[[0m[0minfo[0m] [0m[0m	Compile / scalaSource[0m
+[0m[[0m[0minfo[0m] [0m[0m	scalaSource[0m
+[0m[[0m[0minfo[0m] [0m[0m	ThisBuild / Compile / scalaSource[0m
+[0m[[0m[0minfo[0m] [0m[0m	ThisBuild / scalaSource[0m
+[0m[[0m[0minfo[0m] [0m[0m	Zero / Compile / scalaSource[0m
+[0m[[0m[0minfo[0m] [0m[0m	Global / scalaSource[0m
+[0m[[0m[0minfo[0m] [0m[0mRelated:[0m
+[0m[[0m[0minfo[0m] [0m[0m	Test / scalaSource[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
