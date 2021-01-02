@@ -7,4 +7,5 @@ class CubeCalculatorTest extends FunSuite {
   test("CubeCalculator.square") {
     assert(CubeCalculator.square(9) === 81)
   }
+
 }
