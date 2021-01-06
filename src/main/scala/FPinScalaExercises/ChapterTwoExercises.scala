@@ -2,6 +2,14 @@ package FPinScalaExercises
 
 object ChapterTwoExercises {
 
+  def fib(n:Int):Int ={
+    def loop(n:Int, prev: Int, cur:Int):Int= {
+      if(n==0) prev
+      else loop(n-1,cur,prev+cur)
+      loop(n,0,1)
+    }
+  }
+
   /**Implement isSorted, which checks whether an Array[A] is sorted according to a given comparison function:*/
 
  def isSorted[A](as:Array[A], gt: (A,A)=>Boolean):Boolean ={
@@ -20,11 +28,16 @@ into a function of one argument that partially applies f. Here again there’s o
 implementation that compiles. Write this implementation.
  */
 
-  def curry[A,B,C](f: (A,B)=>C):A=>(B => C) = a=>b=>f(a,b)
+  def curry[A,B,C](f: (A,B)=>C):A=>(B => C) = a => b=> f(a,b)
 
   /**
   Implement uncurry, which reverses the transformation of curry. Note that since =>
   associates to the right, A => (B => C) can be written as A => B => C.
 */
-  def uncurry[A,B,C](f: A => B => C): (A, B) => C = (a,b) => f(a)(b)
+  def uncurry[A,B,C](f: A => B => C): (A, B) => C = (a,b)=> f(a)(b)
+
+  /**
+  Implement the higher-order function that composes two functions.
+  */
+  def compose[A,B,C](f: B => C, g: A => B): A => C = a => f(g(a))
 }
