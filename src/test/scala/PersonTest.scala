@@ -49,4 +49,7 @@ class PersonTest extends FunSuite {
   test("returns NONE if incorrect person put in"){
     assert(changePersonsAge(Person("Stephen", "", -32), 30)=== None )
   }
+  test("functions as first class citizens"){
+    assert(changePersonsAge(mkPerson("kIm", "kArdashian", 39), 30)=== None )
+  }
 }
